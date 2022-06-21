@@ -1,0 +1,15 @@
+When importing CSS from Figma, it specifies everything with absolute pixel values - not great if your screen size isn't a landscape 1920x1080!
+
+This file has formulas for converting between pixel values to percentages - relative sizes and positionings that should hopefully work for all (larger) resolutions.
+
+Width in pixels -> width relative to parent:
+width (px) / (1920 * width_parent (%))
+
+Height in pixels -> height relative to parent:
+height (px) / (1080 * height_parent (%))
+
+Top in pixels -> top relative to parent:
+(top (px) - (1080 * top_parent (%))) / (1080 * height_parent (%))
+
+Left in pixels -> left relative to parent:
+(left (px) - (1920 * left_parent (%))) / (1920 * width_parent (%))

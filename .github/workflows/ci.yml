@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: PHPUnit Tests
+        uses: php-actions/phpunit@v3
+        with:
+          configuration: webserver/test/phpunit.xml

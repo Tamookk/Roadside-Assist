@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true">
+    <testsuites>
+        <!-- Account class test -->
+        <testsuite name="account">
+            <directory suffix="AccountTest.php">.</directory>
+        </testsuite>
+        <!-- Customer class test -->
+        <testsuite name="customer">
+            <directory suffix="CustomerTest.php">.</directory>
+        </testsuite>
+        <!-- Professional class test -->
+        <testsuite name="professional">
+            <directory suffix="ProfessionalTest.php">.</directory>
+        </testsuite>
+        <!-- Report class test -->
+        <testsuite name="report">
+            <directory suffix="ReportTest.php">.</directory>
+        </testsuite>
+        <!-- Vehicle class test -->
+        <testsuite name="vehicle">
+            <directory suffix="VehicleTest.php">.</directory>
+        </testsuite>
+        <!-- Waitlist class test -->
+        <testsuite name="waitlist">
+            <directory suffix="WaitlistTest.php">.</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

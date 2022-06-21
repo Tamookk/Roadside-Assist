@@ -1,0 +1,54 @@
+/* CSS common to all web files. */
+
+#outer
+{
+    position: absolute;
+    width: 97%;
+    height: 90%;
+    left: 3%;
+    top: 10%;
+    background-image: url("images/default_bg.png");
+    background-color: white;
+}
+
+body
+{
+    background-color: #D4EDF4;
+}
+
+#logo
+{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 1%;
+    top: 2%;
+    z-index: 3;
+    border-radius: 250px;
+}
+
+#welcome_message
+{
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 62.5%;
+    background: #FFE67A;
+    border-radius: 70px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 3em;
+    line-height: 2em;
+    text-align: center;
+    color: #000000;
+    margin-left: 22.5%;
+}
+
+#content
+{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+}

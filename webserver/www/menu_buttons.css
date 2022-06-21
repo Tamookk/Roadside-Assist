@@ -1,0 +1,30 @@
+.menu_button
+{
+    box-sizing: border-box;
+    background-color: #FFE67A;
+    border-radius: 40px;
+    height: auto;
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 275;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    color: #000000;
+}
+
+#logout_button
+{
+    background-color: #FABC32;
+}
+
+.menu_button:hover
+{
+    background-color: #958315;
+}
+
+#logout_button:hover
+{
+    background-color: #AD7700;
+}
